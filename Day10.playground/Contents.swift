@@ -10,3 +10,17 @@ Please [commit your work frequently](https://www.russellgordon.ca/cs/source-cont
 import Cocoa
 
 var str = "Hello, playground"
+
+
+
+//Class inheritance
+class Dog {
+    var name: String
+    var breed: String
+
+    init(name: String, breed: String) {
+        self.name = name
+        self.breed = breed
+    }
+}
+//a difference between classes and structs is that you can create a class based on a real existing class, it inherits all the properties and methods of the original class, and can add its own on top. This is called class inheritance or subclassing, the class you inherit from is called the “parent” or “super” class, and the new class is called the “child” class.
